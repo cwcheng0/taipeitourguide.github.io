@@ -406,21 +406,21 @@ html,body{height: 100%;}
 /* .single-featured-box */
 
 /*-------------------------------------
-        8.  Service
+        8.  Service-2
 --------------------------------------*/
-.service{
+.service-2{
     padding:150px 0 100px;
     background: #000;
 }
-.single-service-box-txt{margin-bottom: 30px;}
-.single-service-box-txt h3{
+.single-service2-box-txt{margin-bottom: 30px;}
+.single-service2-box-txt h3{
     font-size: 14px;
     font-weight:800;
     line-height: 4.64;
     color: #fff;
     margin-bottom: 10px;
 }
-.single-service-box-txt p {
+.single-service2-box-txt p {
     font-size: 14px;
     line-height: 1.93;
     color: #fff;
