@@ -1,89 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>2020年台灣觀光業第4季季報整理</title>
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <meta name="TaiwanTourism202010.html" content="2020年台灣觀光業第4季季報">
+    <meta name="author" content="2020年台灣觀光業第4季季報">
+    <meta name="title" content="2020年台灣觀光業第4季季報" />
+    <meta name="description" content="2020年台灣觀光業第4季季報" />
+    <meta property="og:description" content="2020年台灣觀光業第4季季報" />
+    <meta property="og:title" content="2020年台灣觀光業第4季季報" />
+    <link rel="shortcut icon" href="images/Logo-3.ico">
 
+    <title>2020年台灣觀光業第4季季報</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS	-->
+    <link href="css/stylish-portfolio.css" rel="stylesheet"> 
+
+    
 	<style type="text/css">
-		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Arial"; font-size:x-small }
-		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
-		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
-		comment { display:none;  } 
+			@font-face {
+				font-family: "My Custom Font";
+		src: url(https://github.com/justfont/open-huninn-font/blob/master/font/jf-openhuninn-1.1.ttf) format("truetype");
+		}
+			p.customfont { 
+				font-family: "My Custom Font", Verdana, Tahoma;
+			}
 	</style>
-	
-<script type="text/javascript">// Promises 
-var _eid_promises = {}; 
-// Turn the incoming message from extension 
-// into pending Promise resolving 
-window.addEventListener("message", function(event) { 
-    if(event.source !== window) return; 
-    if(event.data.src && (event.data.src === "background.js")) { 
-        console.log("Page received: "); 
-        console.log(event.data); 
-        // Get the promise 
-        if(event.data.nonce) { 
-            var p = _eid_promises[event.data.nonce]; 
-            // resolve 
-            if(event.data.result === "ok") { 
-                if(event.data.signature !== undefined) { 
-                    p.resolve({hex: event.data.signature}); 
-                } else if(event.data.version !== undefined) { 
-                    p.resolve(event.data.extension + "/" + event.data.version); 
-                } else if(event.data.cert !== undefined) { 
-                    p.resolve({hex: event.data.cert}); 
-                } else { 
-                    console.log("No idea how to handle message"); 
-                    console.log(event.data); 
-                } 
-            } else { 
-                // reject 
-                p.reject(new Error(event.data.result)); 
-            } 
-            delete _eid_promises[event.data.nonce]; 
-        } else { 
-            console.log("No nonce in event msg"); 
-        } 
-    } 
-}, false); 
- 
- 
-function TokenSigning() { 
-    function nonce() { 
-        var val = ""; 
-        var hex = "abcdefghijklmnopqrstuvwxyz0123456789"; 
-        for(var i = 0; i < 16; i++) val += hex.charAt(Math.floor(Math.random() * hex.length)); 
-        return val; 
-    } 
- 
-    function messagePromise(msg) { 
-        return new Promise(function(resolve, reject) { 
-            // amend with necessary metadata 
-            msg["nonce"] = nonce(); 
-            msg["src"] = "page.js"; 
-            // send message 
-            window.postMessage(msg, "*"); 
-            // and store promise callbacks 
-            _eid_promises[msg.nonce] = { 
-                resolve: resolve, 
-                reject: reject 
-            }; 
-        }); 
-    } 
-    this.getCertificate = function(options) { 
-        var msg = {type: "CERT", lang: options.lang, filter: options.filter}; 
-        console.log("getCertificate()"); 
-        return messagePromise(msg); 
-    }; 
-    this.sign = function(cert, hash, options) { 
-        var msg = {type: "SIGN", cert: cert.hex, hash: hash.hex, hashtype: hash.type, lang: options.lang, info: options.info}; 
-        console.log("sign()"); 
-        return messagePromise(msg); 
-    }; 
-    this.getVersion = function() { 
-        console.log("getVersion()"); 
-        return messagePromise({ 
-            type: "VERSION" 
-        }); 
-    }; 
-}</script></head>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-W943H23');</script>
+		<!-- End Google Tag Manager -->
+
+	 
+</head>
 
 <body>
 
@@ -92,12 +51,13 @@ function TokenSigning() {
 
 
 <table class="table table-bordered table-hover table-condensed">
-<thead>
-<tr>
+<thead><tr>
 <th colspan="16">(旅行社)</th>
 </tr>
 </thead>
 <tbody><tr>
+
+
 <td>公司</td>
 <td>股本(累計)</td>
 <td>營業收入淨額(累計)</td>
