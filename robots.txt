@@ -1,0 +1,18 @@
+Sitemap: https://www.taipeitourguide.com/sitemap.xml
+
+# Naver Setting separate
+User-agent: Googlebot
+
+User-agent: Yeti
+Allow:/ko/
+Disallow: */ajax_*
+Disallow: /version.txt
+Disallow:/zh-tw/
+Disallow:/ja/
+
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: *
+Disallow: */ajax_*
+Disallow: /version.txt
