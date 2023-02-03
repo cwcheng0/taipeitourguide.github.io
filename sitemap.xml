@@ -2,11 +2,11 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
 <loc>https://www.taipeitourguide.com</loc>
-<lastmod>2023-01-20T03:17:07+30:00</lastmod>
+<lastmod>2023-02-03T03:17:07+30:00</lastmod>
 </sitemap>
 <sitemap>
 <loc>https://www.taipeitourguide.com/news.html</loc>
-<lastmod>2023-01-20T03:17:07+30:00</lastmod>
+<lastmod>2023-02-01T03:17:07+30:00</lastmod>
 </sitemap>
 <sitemap>
 <loc>https://www.taipeitourguide.com/2020.html</loc>
@@ -51,6 +51,10 @@
 <sitemap>
 <loc>https://www.taipeitourguide.com/travel/leather.html</loc>
 <lastmod>2023-01-20T03:17:07+30:00</lastmod>
+</sitemap>
+<sitemap>
+<loc>https://www.taipeitourguide.com/404.html</loc>
+<lastmod>2023-02-03T03:17:07+30:00</lastmod>
 </sitemap>
 <sitemap>
 <loc>https://www.taipeitourguide.com/TourismData/202212TaiwanTourismRevenue.html</loc>
